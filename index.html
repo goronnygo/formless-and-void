@@ -5,29 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Formless And Void Updated</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <div id="form">
-            <input type="text" id="fname" placeholder="First Name" />
-            <input type="text" id="lname" placeholder="Last Name" />
-            <br>
-            <p>What is your favorite language?</p>
-            <input type="checkbox" id="language1" name="language1" value="English">
-            <label for="language1"> English</label><br>
-            <input type="checkbox" id="language2" name="language2" value="French">
-            <label for="language2"> French</label><br>
-            <input type="checkbox" id="language3" name="language3" value="Arabic">
-            <label for="language3"> Arabic</label><br>
-            <br>
-            <button>Submit</button>
+        <div class="jumbotron" >
+            <div id="form" >
+                <input type="text" id="fname" placeholder="First Name" />
+                <input type="text" id="lname" placeholder="Last Name" />
+                <br>
+                <p>What is your favorite language?</p>
+                <input type="checkbox" id="language1" name="language1" value="English">
+                <label for="language1"> English</label><br>
+                <input type="checkbox" id="language2" name="language2" value="French">
+                <label for="language2"> French</label><br>
+                <input type="checkbox" id="language3" name="language3" value="Arabic">
+                <label for="language3"> Arabic</label><br>
+                <br>
+                <button>Submit</button>
 
+            </div>
+
+            <div id="results">
+                <h1 class="fname"></h1>
+                <h1 class="lname"></h1>
+            </div>
         </div>
-
-        <div id="results">
-            <h1 class="fname"></h1>
-            <h1 class="lname"></h1>
-        </div>
-
         <script src="main.js"></script>
     </body>
 </html>
